@@ -159,7 +159,7 @@ const Nav = (props) => {
                 
                  
                   <Link to="/login">
-                    <Typography className={classes.link}> Admin Log in</Typography>
+                    <Typography className={classes.link}> Admin </Typography>
                   </Link>
                 )}
               </Box>

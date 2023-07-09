@@ -4,7 +4,7 @@ const styles = (theme) => {
   return {
     navbar: {
        backgroundColor: 'blue',
-       position:'sticky',
+      
        color:'blue'
     },
     toolBar: {
@@ -12,10 +12,10 @@ const styles = (theme) => {
       display: 'flex',
       justifyContent: 'space-between',
       padding: '20px',
-      backgroundColor: 'white',
+      backgroundColor: '#cfd8dc',
     },
     logo: {
-      color: "#304ffe",
+      color: "#212121",
       cursor: 'pointer',
     },
     inputField: {
