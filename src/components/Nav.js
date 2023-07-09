@@ -128,9 +128,24 @@ const Nav = (props) => {
                 sx={{
                   display: 'flex',
                   justifyContent: 'space-between',
+                  alignItems: 'center',
                   flexGrow: '0.05',
+                  padding:'20px',
                 }}
-              >
+              
+              >                 
+                    <Link to="/" className={classes.link}>
+                    Home
+                  </Link>
+                  <Link to="/contacts" className={classes.link}>
+                    Contacts
+                  </Link>
+                  <Link to="/about" className={classes.link}>
+                    About
+                  </Link>
+                  <Link to="/services" className={classes.link}>
+                    Services
+                  </Link> 
                 {loggedIn ? (
                   <Typography
                     className={classes.link}
@@ -138,10 +153,11 @@ const Nav = (props) => {
                   >
                     Sign Out
                   </Typography>
-                ) : (
-                  
+                ) : (              
+                
+                 
                   <Link to="/login">
-                    <Typography className={classes.link}>Log in</Typography>
+                    <Typography className={classes.link}> Admin Log in</Typography>
                   </Link>
                 )}
               </Box>
