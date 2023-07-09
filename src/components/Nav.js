@@ -53,7 +53,14 @@ const Nav = (props) => {
       onKeyDown={toggleDrawer(false)}
     >
       <List>
-        <Link to='/'>
+               
+        {loggedIn ? (
+          <ListItem button onClick={() => signOut()}>
+            <ListItemText primary="Sign Out" />
+          </ListItem>
+        ) : (
+          <Box>
+          <Link to='/'>
         <ListItem button>
           <ListItemText primary='Home'/>
         </ListItem>
@@ -67,17 +74,12 @@ const Nav = (props) => {
         <ListItem button component={Link} to="/services">
           <ListItemText primary="Services" />
           </ListItem>
-       
-        {loggedIn ? (
-          <ListItem button onClick={() => signOut()}>
-            <ListItemText primary="Sign Out" />
-          </ListItem>
-        ) : (
           <Link to="/login">
             <ListItem button>
               <ListItemText primary="Log in" />
             </ListItem>
           </Link>
+          </Box>
         )}
       </List>
     </Box>
