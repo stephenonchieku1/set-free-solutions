@@ -46,6 +46,7 @@ const Nav = (props) => {
   };
   const list = (anchor) => (
     <Box
+   
       sx={{ width: 250 }}
       role="presentation"
       onClick={toggleDrawer(false)}
@@ -86,9 +87,10 @@ const Nav = (props) => {
   const matches = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
-    <Box sx={{ marginBottom: '70px' }}>
+    <Box sx={{ marginBottom: '70px',
+     color:"primary"}}>
       <ElevationScroll {...props}>
-        <AppBar>
+        <AppBar className={classes.navbar} sx={{color:'primary'}} color='primary' >
           <Toolbar className={classes.toolBar}>
             <Link to="/">
               {matches ? (

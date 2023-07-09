@@ -2,6 +2,11 @@ import { makeStyles } from '@mui/styles';
 
 const styles = (theme) => {
   return {
+    navbar: {
+       backgroundColor: 'blue',
+       position:'sticky',
+       color:'blue'
+    },
     toolBar: {
       height: '10vh',
       display: 'flex',
@@ -10,7 +15,7 @@ const styles = (theme) => {
       backgroundColor: 'white',
     },
     logo: {
-      color: "#041562",
+      color: "#304ffe",
       cursor: 'pointer',
     },
     inputField: {
@@ -18,7 +23,7 @@ const styles = (theme) => {
       width: "100%"
     },
     link: {
-      color: "#000",
+      color: "#ff5722",
       cursor: "pointer"
     },
     menuIcon: {
