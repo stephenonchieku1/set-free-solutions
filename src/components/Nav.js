@@ -55,9 +55,25 @@ const Nav = (props) => {
       <List>
                
         {loggedIn ? (
+          <Box>
+            <Link to='/'>
+        <ListItem button>
+          <ListItemText primary='Home'/>
+        </ListItem>
+        </Link>
+        <ListItem button component={Link} to="/contacts">
+          <ListItemText primary="Contacts" />
+        </ListItem>
+        <ListItem button component={Link} to="/about">
+          <ListItemText primary="About" />
+        </ListItem>
+        <ListItem button component={Link} to="/services">
+          <ListItemText primary="Services" />
+          </ListItem>
           <ListItem button onClick={() => signOut()}>
             <ListItemText primary="Sign Out" />
           </ListItem>
+          </Box>
         ) : (
           <Box>
           <Link to='/'>
