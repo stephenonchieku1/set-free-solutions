@@ -94,9 +94,10 @@ const Nav = (props) => {
           <Toolbar className={classes.toolBar}>
             <Link to="/">
               {matches ? (
-                <Typography variant="h6" className={classes.logo}>
-                  Set Free Solutions
-                </Typography>
+                     <Typography variant="h6" className={classes.logo}>
+                     Set Free Solutions
+                   </Typography>         
+               
               ) : (
                 <Typography variant="h5" className={classes.logo}>
                 Set Free Solutions
@@ -136,25 +137,37 @@ const Nav = (props) => {
                 }}
               
               >                 
-                    <Link to="/" className={classes.link}>
-                    Home
-                  </Link>
-                  <Link to="/contacts" className={classes.link}>
-                    Contacts
-                  </Link>
-                  <Link to="/about" className={classes.link}>
-                    About
-                  </Link>
-                  <Link to="/services" className={classes.link}>
-                    Services
-                  </Link> 
+                 
                 {loggedIn ? (
+                  <Box
+                  sx={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    flexGrow: '0.05',
+                    width:"100%",
+                  }}>                 
+                   
+                   <Link to="/" className={classes.link}>
+                   Home
+                 </Link>
+                 <Link to="/contacts" className={classes.link}>
+                   Contacts
+                 </Link>
+                 <Link to="/about" className={classes.link}>
+                   About
+                 </Link>
+                 <Link to="/services" className={classes.link}>
+                   Services
+                 </Link>
+                 
                   <Typography
                     className={classes.link}
                     onClick={() => signOut()}
                   >
                     Sign Out
                   </Typography>
+                  </Box>
                 ) : (              
                 
                  
