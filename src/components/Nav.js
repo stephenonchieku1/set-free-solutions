@@ -169,11 +169,30 @@ const Nav = (props) => {
                   </Typography>
                   </Box>
                 ) : (              
-                
-                 
-                  <Link to="/login">
+                <Box sx={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  flexGrow: '0.05',
+                  width:"100%",
+                }} >                
+                                  
+                  <Link to="/" className={classes.link}>
+                   Home
+                 </Link>
+                 <Link to="/contacts" className={classes.link}>
+                   Contacts
+                 </Link>
+                 <Link to="/about" className={classes.link}>
+                   About
+                 </Link>
+                 <Link to="/services" className={classes.link}>
+                   Services
+                 </Link>
+                 <Link to="/login">
                     <Typography className={classes.link}> Admin </Typography>
                   </Link>
+                 </Box>
                 )}
               </Box>
             )}
