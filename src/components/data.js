@@ -50,6 +50,25 @@ const work_process = [
         paragraph: "Nunc sodales lacus nec felis suscipit dictum"
     },
 ];
-
+const works = [
+    {
+        image: `${images.work_img_1}`
+    },
+    {
+        image: `${images.work_img_2}`
+    },
+    {
+        image: `${images.work_img_3}`
+    },
+    {
+        image: `${images.work_img_4}`
+    },
+    {
+        image: `${images.work_img_5}`
+    },
+    {
+        image: `${images.work_img_6}`
+    },
+];
 
 export default data
