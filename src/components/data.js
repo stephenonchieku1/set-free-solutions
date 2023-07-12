@@ -71,4 +71,22 @@ const works = [
     },
 ];
 
+const testimonials = [
+    {
+        name: "Lelia Merritt",
+        post: "Graphic Designer",
+        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
+    },
+    {
+        name: "John Huston",
+        post: "Web Developer",
+        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
+    },
+    {
+        name: "Jeniffer Green",
+        post: "Marketing Manager",
+        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
+    },
+]
+
 export default data
