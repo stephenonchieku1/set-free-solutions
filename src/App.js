@@ -8,6 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Loading from './components/Loading';
 import PageNotFound from './pages/PageNotFound';
 import About from "../src/components/About";
+import Service from './components/Service';
 
 const Auth = lazy(()=> import('./pages/Auth'))
 const CreateInvoice = lazy(()=> import('./pages/CreateInvoice'))
@@ -38,6 +39,7 @@ function App() {
         <Route path="/profile" element={<SetupProfile/>}/>
         <Route path="*" element={<PageNotFound/>}/>
         <Route path='/About' element={<About/>}/>
+        <Route path ="/services" element={<Service/>}/>
       </Routes>
       </Suspense>
         <ToastContainer />

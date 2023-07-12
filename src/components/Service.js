@@ -1,5 +1,5 @@
 import React from 'react'
-const Services = () => {
+const Service = () => {
     return (
       <div className='services section-p' id = "services">
           <div className='container'>
