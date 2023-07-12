@@ -90,4 +90,4 @@ const testimonials = [
     },
 ];
 
-export default {services,works,work_process,testimonials}
+export default {services,works,work_process,testimonials};
