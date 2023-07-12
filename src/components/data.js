@@ -32,4 +32,24 @@ const services = [
     },
 ];
 
+const work_process = [
+    {
+        title: "Sketch",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+    {
+        title: "Design",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+    {
+        title: "Develop",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+    {
+        title: "End-Product",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+];
+
+
 export default data
