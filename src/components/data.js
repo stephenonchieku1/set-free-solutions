@@ -88,6 +88,6 @@ const testimonials = [
         post: "Marketing Manager",
         paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
     },
-]
+];
 
-export default data
+export default {services,works,work_process,testimonials}
