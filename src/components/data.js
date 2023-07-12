@@ -1,9 +1,35 @@
 import React from 'react'
-
-function data() {
-  return (
-    <div>data</div>
-  )
-}
+const services = [
+    {
+        image: `${images.services_img_1}`,
+        title: "Web Design",
+        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    },
+    {
+        image: `${images.services_img_2}`,
+        title: "Branding",
+        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    },
+    {
+        image: `${images.services_img_3}`,
+        title: "UX Design",
+        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    },
+    {
+        image: `${images.services_img_4}`,
+        title: "Logo Create",
+        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    },
+    {
+        image: `${images.services_img_5}`,
+        title: "Illustration",
+        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    },
+    {
+        image: `${images.services_img_6}`,
+        title: "Graphics",
+        paragraph: "Vivamus a accumsan mauris. Nunc sodales lacus nec felis suscipit dictum. Mauris auctor enim in justo euismod imperdiet."
+    },
+];
 
 export default data
