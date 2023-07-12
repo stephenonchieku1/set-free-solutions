@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Loading from './components/Loading';
 import PageNotFound from './pages/PageNotFound';
 import About from "../src/components/About";
-import Service from './components/Service';
+import Service from './components/Services';
 
 const Auth = lazy(()=> import('./pages/Auth'))
 const CreateInvoice = lazy(()=> import('./pages/CreateInvoice'))

@@ -1,5 +1,5 @@
-import React from 'react';
 import images from '../Images';
+
 const services = [
     {
         image: `${images.services_img_1}`,
