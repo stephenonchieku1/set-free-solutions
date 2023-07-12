@@ -1,4 +1,4 @@
-import images from './images';
+import images from "./images";
 
 const services = [
     {
@@ -33,24 +33,6 @@ const services = [
     },
 ];
 
-const work_process = [
-    {
-        title: "Sketch",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-    {
-        title: "Design",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-    {
-        title: "Develop",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-    {
-        title: "End-Product",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
-    },
-];
 const works = [
     {
         image: `${images.work_img_1}`
@@ -72,6 +54,48 @@ const works = [
     },
 ];
 
+const work_process = [
+    {
+        title: "Sketch",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+    {
+        title: "Design",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+    {
+        title: "Develop",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+    {
+        title: "End-Product",
+        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+    },
+];
+
+const about_stats = [
+    {
+        image: `${images.stat_img_1}`,
+        value: "1575",
+        title: "Clients"
+    },
+    {
+        image: `${images.stat_img_2}`,
+        value: "2416",
+        title: "Projects"
+    },
+    {
+        image: `${images.stat_img_3}`,
+        value: "4287",
+        title: "Working Hours"
+    },
+    {
+        image: `${images.stat_img_4}`,
+        value: "287",
+        title: "Awards"
+    },
+];
+
 const testimonials = [
     {
         name: "Lelia Merritt",
@@ -88,6 +112,27 @@ const testimonials = [
         post: "Marketing Manager",
         paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
     },
+]
+
+const logos = [
+    {
+        image: `${images.logo_img_1}`
+    },
+    {
+        image: `${images.logo_img_2}`
+    },
+    {
+        image: `${images.logo_img_3}`
+    },
+    {
+        image: `${images.logo_img_4}`
+    },
+    {
+        image: `${images.test_img_5}`
+    },
+    {
+        image: `${images.test_img_6}`
+    },
 ];
 
-export default {services,works,work_process,testimonials};
+export {services, works, work_process, about_stats, testimonials, logos};
