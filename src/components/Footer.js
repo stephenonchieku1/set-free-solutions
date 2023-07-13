@@ -33,6 +33,17 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
+      <div className="space-y-3">
+				<h3 className="tracki uppercase dark:text-gray-50">Company</h3>
+				<ul className="space-y-1">
+					<li>
+						<a rel="noopener noreferrer" href="#">Privacy</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Terms of Service</a>
+					</li>
+				</ul>
+			</div>
 	
 </footer>   
   
