@@ -8,8 +8,8 @@ const Services = () => {
         <div className='container'>
             <div className='services-content'>
                 <div className='section-title'>
-                    <h3 className='text-brown'>my <span className='text-dark'>services</span></h3>
-                    <p className='text'>I offer the right solutions for your digital business.</p>
+                    <h3 className='text-brown'>Our<span className='text-dark'>Services</span></h3>
+                    <p className='text'>We offer the right solutions for your digital business.</p>
                 </div>
 
                 <div className='services-list grid'>
