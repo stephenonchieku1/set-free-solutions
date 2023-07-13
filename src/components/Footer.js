@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
   return (    
-   <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100 w-full">
+   <footer className="px-4 divide-y bg-gray-900 dark:text-gray-100 w-full text-white">
     <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 		<div className="lg:w-1/3">
 			<a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
