@@ -10,17 +10,16 @@ const Hero = () => {
         style={{ flex: 0.6 }}
       >
         <h2 className="text-3xl font-bold mb-4 md:text-4xl">
-          Create invoices for your customers
+          Need It Solutions?
         </h2>
         <p className="opacity-70 mb-4 text-sm md:text-base leading-loose">
-          Invoicer is an online invoicing software that helps you craft and
-          print professional invoices for your customers for free! Keep your
-          business and clients with one invoicing software.
+          Get free consultation
+        
         </p>
 
-        <Link to="/login">
-          <button className="rounded w-[200px] px-2 py-3 bg-blue-500 text-gray-50">
-            LOG IN
+        <Link to="/contacts">
+          <button className="rounded w-[200px] px-2 py-3 bg-orange-500 text-gray-50">
+            GET STARTED
           </button>
         </Link>
       </div>
