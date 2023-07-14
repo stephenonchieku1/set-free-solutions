@@ -3,8 +3,8 @@ import React from 'react'
 function faq() {
   return (
     <div>
-        <section>
-            <div>
+        <section className="dark:bg-gray-800 dark:text-gray-100">
+            <div >
                 <p>How it works</p>
                 <h2>Frequently asked questions</h2>
                 <div>
