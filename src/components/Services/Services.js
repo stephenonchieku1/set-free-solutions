@@ -22,6 +22,9 @@ function Services() {
 								</div>
 							</div>
 						</div>
+                        </div>
+                        </div>
+                        </div>
 						<div className="p-6 rounded shadow-md bg-gray-50">
 							<p>Sit wisi sapientem ut, pri civibus temporibus voluptatibus et, ius cu hinc fabulas. Nam meliore minimum et, regione convenire cum id. Ex pro eros mucius consectetuer, pro magna nulla nonumy ne, eam putent iudicabit consulatu cu.</p>
 							<div className="flex items-center mt-4 space-x-4">
@@ -31,7 +34,47 @@ function Services() {
 									<p className="text-sm text-gray-600">CTO of Company Co.</p>
 								</div>
 							</div>
-						</div>
+                            <div className="grid content-center gap-4">
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem elaboraret. Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster senserit eam, ferri omittantur ei nec. Id mel solet libris efficiantur, commune explicari et eos. Case movet ad est, sed tota vocent appetere ea.</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">DIGITAL MARKETING</p>
+									<p className="text-sm text-gray-600">CTO of Company Co.</p>
+								</div>
+							</div>
+						</div>              <div className="grid content-center gap-4">
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem elaboraret. Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster senserit eam, ferri omittantur ei nec. Id mel solet libris efficiantur, commune explicari et eos. Case movet ad est, sed tota vocent appetere ea.</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">DIGITAL MARKETING</p>
+									<p className="text-sm text-gray-600">CTO of Company Co.</p>
+								</div>
+							</div>
+						</div><div className="grid content-center gap-4">
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem elaboraret. Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster senserit eam, ferri omittantur ei nec. Id mel solet libris efficiantur, commune explicari et eos. Case movet ad est, sed tota vocent appetere ea.</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">DIGITAL MARKETING</p>
+									<p className="text-sm text-gray-600">CTO of Company Co.</p>
+								</div>
+							</div>
+						</div>              <div className="grid content-center gap-4">
+						<div className="p-6 rounded shadow-md bg-gray-50">
+							<p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem elaboraret. Agam mollis scripserit ea his, ut nec postea verear persecuti. Ea noster senserit eam, ferri omittantur ei nec. Id mel solet libris efficiantur, commune explicari et eos. Case movet ad est, sed tota vocent appetere ea.</p>
+							<div className="flex items-center mt-4 space-x-4">
+								<img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
+								<div>
+									<p className="text-lg font-semibold">DIGITAL MARKETING</p>
+									<p className="text-sm text-gray-600">CTO of Company Co.</p>
+								</div>
+							</div>
+						</div>		</div>
 					</div>
 					<div className="grid content-center gap-4">
 						<div className="p-6 rounded shadow-md bg-gray-50">
@@ -66,12 +109,17 @@ function Services() {
 							</div>
 						</div>
 					</div>
-				</div>
+
+                </div> 
+
+
 			</div>
+        
 		</div>
-	</div>
+	
+    </div>    
 </section>
   )
 }
 
-export default Services
+export default Services ;
