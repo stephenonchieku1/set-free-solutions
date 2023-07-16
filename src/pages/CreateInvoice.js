@@ -188,7 +188,7 @@ const CreateInvoice = () => {
 
                   <div className="flex flex-col w-1/4">
                     <label htmlFor="itemCost" className="text-sm">
-                      Cost
+                      Cost per Day
                     </label>
                     <input
                       type="number"
@@ -196,13 +196,13 @@ const CreateInvoice = () => {
                       placeholder="Cost"
                       className="py-2 px-4 mb-6 bg-gray-100"
                       value={itemCost}
-                      onChange={(e) => setItemCost(e.target.value)}
+                      onChange={(e) => setItemCost(e.target.value)}e
                     />
                   </div>
 
                   <div className="flex flex-col justify-center w-1/4">
                     <label htmlFor="itemQuantity" className="text-sm">
-                      Quantity
+                      Number of days
                     </label>
                     <input
                       type="number"
@@ -215,7 +215,7 @@ const CreateInvoice = () => {
                   </div>
 
                   <div className="flex flex-col justify-center w-1/4">
-                    <p className="text-sm">Price</p>
+                    <p className="text-sm">Price</p>e
                     <p className="py-2 px-4 mb-6 bg-gray-100">
                       {Number(itemCost * itemQuantity).toLocaleString('en-US')}
                     </p>

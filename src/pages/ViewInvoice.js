@@ -165,28 +165,24 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
             <div className="w-full p-8">
               <h3 className="font-semibold mb-2">Payment Details</h3>
               <p className="text-sm mb-1 capitalize">
-                <span className="font-semibold">Account Name: </span>
+                <span className="font-semibold"> Name: </span>
                 {businessDetails[0].data.accountName}
               </p>
               <p className="text-sm mb-1">
-                <span className="font-semibold">Till Number: </span>
+                <span className="font-semibold">MPESA Number: </span>
                 {businessDetails[0].data.accountNumber}
               </p>
               <p className="text-sm mb-1 capitalize">
-                <span className="font-semibold">Bank Name: </span>{' '}
+                <span className="font-semibold">MPESA: </span>{' '}
                 {businessDetails[0].data.bankName}
               </p>
-              <p className="text-sm mb-1 capitalize">
-                <span className="font-semibold">Till NO </span>
-                {businessDetails[0].data.tillNo}
-              </p>
+             
             </div>
           )}
 
           <footer className="px-8 py-4 bg-gray-200 w-full">
             <p className="text-sm text-center">Thanks for the patronage!</p>
-            <p className="text-sm text-center">Email: info@setfreesolutions.co.ke</p>
-            <p className="text-sm text-center"> Contacts: 0711139866 or  0787122561</p>
+            
           </footer>
         </div>
       )}
