@@ -48,16 +48,16 @@ const Footer = () => {
 				<h3 className="uppercase dark:text-gray-50">Menu</h3>
 				<ul className="space-y-1">
 				<li>
-						<a rel="noopener noreferrer" href="/">Home</a>
+						<a  href="/">Home</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="/about">About us</a>
+						<a  href="/about">About us</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="/services">Services</a>
+						<a  href="/services">Services</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="/contacts">Contacts</a>
+						<a  href="/contacts">Contacts</a>
 					</li>
 				</ul>
 			</div>

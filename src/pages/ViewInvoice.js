@@ -55,7 +55,7 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
           className="w-full md:w-2/3 shadow-xl mx-auto mt-8 rounded"
           ref={ref}
         >
-          <div className="w-full bg-black flex items-center">
+          <div className="w-full bg-white flex items-center">
             <div className="w-1/2 h-[100%]  p-8 ">
               <img
                 src={businessDetails ? businessDetails[0].data.logo : ''}

@@ -163,7 +163,7 @@ const SetupProfile = () => {
               <div className="flex items-end space-x-4">
                 <div className="flex flex-col w-1/2">
                   <label htmlFor="accountNumber" className="text-sm">
-                    Account Number
+                    MPESA Number
                   </label>
                   <input
                     type="number"
@@ -177,7 +177,7 @@ const SetupProfile = () => {
 
                 <div className="flex flex-col w-1/2">
                   <label htmlFor="bankName" className="text-sm">
-                    Bank Name
+                    Payment Via
                   </label>
                   <input
                     type="text"
