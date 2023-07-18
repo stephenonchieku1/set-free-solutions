@@ -10,12 +10,18 @@ const HomeSection = () => {
         style={{ flex: 0.6 }}
       >
         <h2 className="text-3xl font-bold mb-4 md:text-4xl">
-          Scale your business 10X
+        Managed and Modern Network Services
         </h2>
         <p className="opacity-70 mb-4 text-sm md:text-base leading-loose">
-          Crafting professional invoices is essential for creating the right
-          brand image, building trust with customers, and encouraging payment.
-          Invoicer lets you create perfect invoices in seconds.
+                       
+                TPx offers managed network services that deliver end-to-end management of your network’s infrastructure, helping you to increase productivity, lower costs and remove the complexity of managing everything on your own. Whether you need internet connectivity for one office or multi-locations, we can design the right network solution for you.
+
+                SD-WAN networks powered by VMware and Cisco Meraki
+                High-Speed Internet Access (Ethernet, Fiber, Dedicated Internet Access (DIA))
+                Private networking/Multiprotocol Label Switching (MPLS) networks
+                High-Speed Internet Access with SD-WAN
+                5G / 4G LTE Internet Access with SD-WAN
+                Hybrid WAN
         </p>
 
         <Link to="/login">
