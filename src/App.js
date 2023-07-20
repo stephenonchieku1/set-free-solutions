@@ -11,6 +11,7 @@ import About from "../src/components/About";
 import Services from "./components/Services/Services"
 import Faq from "./components/faq"
 import Dropdownmenu from './components/dropdownmenu';
+import Progress from './components/progress';
 
 const Auth = lazy(()=> import('./pages/Auth'))
 const CreateInvoice = lazy(()=> import('./pages/CreateInvoice'))
@@ -43,6 +44,7 @@ function App() {
         <Route path='/About' element={<About/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/faq'element={<Faq/>}/>
+        <Route path='/progress' element={<Progress/>}/>
    <Route path="/menu"element={<Dropdownmenu/>}/>
       </Routes>
       </Suspense>
