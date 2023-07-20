@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const PageNotFound = () => {
   return (
-    <main className="w-full min-h-screen bg-gray-800 flex flex-col items-center justify-center">
+    <main className="w-full min-h-screen bg-gray-700 flex flex-col items-center justify-center">
       <h3 className="text-2xl mb-4 font-bold">Page does not exit 😭</h3>
       <Link to="/" className="text-red-500">
         Go home page ❇️

@@ -3,7 +3,7 @@ import React from 'react'
 function faq() {
   return (
     
-    <section className="dark:bg-gray-800 dark:text-gray-100">
+    <section className="dark:bg-gray-600 dark:text-gray-100">
 	<div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
 		<p className="p-2 text-sm font-medium tracki text-center uppercase">How it works</p>
 		<h2 className="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Frequently Asked Questions</h2>
