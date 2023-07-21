@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 import HomeSection from '../components/HomeSection';
 import Nav from '../components/Nav';
 import Services from "../components/Services/Services";
-import 
+import  Index from "../components/Index"
 
 const Home = () => {
   return (
@@ -14,6 +14,7 @@ const Home = () => {
       <HomeSection />
       <Services/>          
       <Footer />
+      <Index/>
     </div>
   );
 };
