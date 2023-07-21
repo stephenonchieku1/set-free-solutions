@@ -17,7 +17,7 @@ export default function Index() {
               </h2>
               <p className="mt-4 text-left text-sm leading-relaxed text-blueGray-500">
 
-               <a class="underline decoration-orange-500"> Set Free Solution </a>  is a fully-fledged IT ,web design ,software and hardware company,our firm is regarded to be
+               <a class="underline decoration-4 "> Set Free Solution </a>  is a fully-fledged IT ,web design ,software and hardware company,our firm is regarded to be
                      among the best in delivering quality It services in Kenya.Part of our services include  :Web design,Systems &Mobilee
                       Apps development,Bulk Sms solutions,Domains&Hosting,SEO,Digital Marketing ,Social Media Management,Branding &Logo Design,Photography,Website Maintenance and many more.
                       At our company we are committed to assisting our client base suceed in their businesses with the use of web technologies.Where we give out our services at the most affordable IT technologies in the fields
