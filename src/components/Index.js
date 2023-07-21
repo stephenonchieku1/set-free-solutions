@@ -13,11 +13,22 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-                Notus React - A beautiful extension for Tailwind CSS.
+                Welcome to where you belong !
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Notus React is Free and Open Source. It does not change any of
-                the CSS from{" "}
+              <p className="mt-4 text-left text-sm leading-relaxed text-blueGray-500">
+
+     -        <a> Set Free Solution </a>  is a fully-fledged IT ,web design ,software and hardware company,our firm is regarded to be
+                     among the best in delivering quality It services in Kenya.Part of our services include  :Web design,Systems &Mobilee
+                      Apps development,Bulk Sms solutions,Domains&Hosting,SEO,Digital Marketing ,Social Media Management,Branding &Logo Design,Photography,Website Maintenance and many more.
+                      At our company we are committed to assisting our client base suceed in their businesses with the use of web technologies.Where we give out our services at the most affordable IT technologies in the fields
+                       cost in the market without compromising the Quality of work 
+                       The robust sense of recognition from clients in different parts of Kenya depicts how We are at providing the best IT solutions to our clientele.We have top-notch skills in handling technical projects and also with current i
+                 Why us;
+                   We have a friendly qualified team with 24hr support
+                   Save money! We prototype our projects saving much of your time and money!
+                   Free 3 months maintenance to any kind of project  
+                   
+                   Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-blueGray-600"
