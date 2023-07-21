@@ -25,17 +25,15 @@ export default function Index() {
                        The robust sense of recognition from clients in different parts of Kenya depicts how We are at providing the best IT solutions to our clientele.We have top-notch skills in handling technical projects and also with current i
                  Why us;
                  <ul>
-                <li>
-                We have a friendly qualified team with 24hr support 
-                </li>
-                <li>  Save money! We prototype our projects saving much of your time and money! </li>
-                <li>    Free 3 months maintenance to any kind of project   </li>
+                     <li> We have a friendly qualified team with 24hr support  </li>
+                      <li>  Save money! We prototype our projects saving much of your time and money! </li>
+                      <li>    Free 3 months maintenance to any kind of project   </li>
                  </ul>
-                   
+                     <p> Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}</p>          
                  
                
                    
-                   Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}
+                  
                 <a
                   href="https://tailwindcss.com/?ref=creativetim"
                   className="text-blueGray-600"
