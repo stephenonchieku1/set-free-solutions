@@ -488,13 +488,22 @@ export default function Index() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-              
+                       src="https://www.istockphoto.com/photo/support-button-on-computer-keyboard-gm1146854142-309162381?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2FIT-tech&utm_term=IT%20tech%3A%3A%3A"
                       />
                     </div>
                   </Link>
                 </div>
 
-                
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    Profile Page
+                  </h5>     <Footer />
+                  <Link to="/profile">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                     
+                    </div>
+                  </Link>
+                </div>
 
                 
               </div>
