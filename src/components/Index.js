@@ -24,9 +24,16 @@ export default function Index() {
                        cost in the market without compromising the Quality of work 
                        The robust sense of recognition from clients in different parts of Kenya depicts how We are at providing the best IT solutions to our clientele.We have top-notch skills in handling technical projects and also with current i
                  Why us;
-                   We have a friendly qualified team with 24hr support
-                   Save money! We prototype our projects saving much of your time and money!
-                   Free 3 months maintenance to any kind of project  
+                 <ul>
+                <li>
+                We have a friendly qualified team with 24hr support 
+                </li>
+                <li>  Save money! We prototype our projects saving much of your time and money! </li>
+                <li>    Free 3 months maintenance to any kind of project   </li>
+                 </ul>
+                   
+                 
+               
                    
                    Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}
                 <a
