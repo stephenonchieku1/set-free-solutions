@@ -15,21 +15,21 @@ export default function Index() {
               <h2 className="font-semibold text-4xl text-blueGray-600">
                 Welcome to where you belong !
               </h2>
-              <p className="mt-4 text-left text-sm leading-relaxed text-blueGray-500">
+              <p className="mt-4 p-6 text-left text-sm leading-relaxed text-blueGray-500 font-semibold">
 
-               <a class="underline decoration-4 "> Set Free Solution </a>  is a fully-fledged IT ,web design ,software and hardware company,our firm is regarded to be
+               <a class="underline decoration-4"> Set Free Solution </a>  is a fully-fledged IT ,web design ,software and hardware company,our firm is regarded to be
                      among the best in delivering quality It services in Kenya.Part of our services include  :Web design,Systems &Mobilee
                       Apps development,Bulk Sms solutions,Domains&Hosting,SEO,Digital Marketing ,Social Media Management,Branding &Logo Design,Photography,Website Maintenance and many more.
                       At our company we are committed to assisting our client base suceed in their businesses with the use of web technologies.Where we give out our services at the most affordable IT technologies in the fields
                        cost in the market without compromising the Quality of work 
                        The robust sense of recognition from clients in different parts of Kenya depicts how We are at providing the best IT solutions to our clientele.We have top-notch skills in handling technical projects and also with current i
                  Why us;
-                 <ul>
+                 <ol>
                      <li> We have a friendly qualified team with 24hr support  </li>
                       <li>  Save money! We prototype our projects saving much of your time and money! </li>
-                      <li>    Free 3 months maintenance to any kind of project   </li>
-                 </ul>
-                     <p> Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}</p>          
+                      <li> Free 3 months maintenance to any kind of project   </li>
+                 </ol>
+                     <p className="font-semibold text-sm"> Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}</p>          
                  
                
                    
@@ -48,13 +48,13 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus?ref=nr-index"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-black font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                  Get started
+                  Get started 
                 </a>
                 <a
                   href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="github-star ml-1 text-black font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                   target="_blank"
                 >
                   Github Star
