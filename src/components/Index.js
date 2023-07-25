@@ -15,21 +15,28 @@ export default function Index() {
               <h2 className="font-semibold text-4xl text-blueGray-600">
                 Welcome to where you belong !
               </h2>
-              <p className="mt-4 p-6 text-left text-sm leading-relaxed text-blueGray-500 font-semibold">
+             
 
-               <a class="underline decoration-4"> Set Free Solution </a>  is a fully-fledged IT ,web design ,software and hardware company,our firm is regarded to be
-                     among the best in delivering quality It services in Kenya.Part of our services include  :Web design,Systems &Mobilee
-                      Apps development,Bulk Sms solutions,Domains&Hosting,SEO,Digital Marketing ,Social Media Management,Branding &Logo Design,Photography,Website Maintenance and many more.
-                      At our company we are committed to assisting our client base suceed in their businesses with the use of web technologies.Where we give out our services at the most affordable IT technologies in the fields
-                       cost in the market without compromising the Quality of work 
-                       The robust sense of recognition from clients in different parts of Kenya depicts how We are at providing the best IT solutions to our clientele.We have top-notch skills in handling technical projects and also with current i
-                 Why us;
-                 <ol>
-                     <li> We have a friendly qualified team with 24hr support  </li>
-                      <li>  Save money! We prototype our projects saving much of your time and money! </li>
-                      <li> Free 3 months maintenance to any kind of project   </li>
-                 </ol>
-                     <p className="font-semibold text-sm"> Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}</p>          
+                     <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+                    <span class="relative text-white">Set Free Solutions</span>
+                  </span>  
+                   <p className="mt-4 p-6 text-left text-sm leading-relaxed text-blueGray-500 font-semibold flex flex-col space-y-3" >   is a fully-fledged IT ,web design ,software and hardware company,our firm is regarded to be
+                     among the best in delivering quality It services in Kenya.
+                      <p>Part of our services include: Web design,Systems &Mobilee
+                      Apps development,Bulk Sms solutions,Domains&Hosting,SEO,Digital Marketing,Social Media Management,
+                      Branding &Logo Design,Photography,Website Maintenance and many more.</p>
+                       <p>At our company we are committed to assisting our client base suceed in their businesses
+                      with the use of web technologies.Where we give out our services at the most affordable IT technologies in the fields
+                       cost in the market without compromising the Quality of work </p>
+                       <p> The robust sense of recognition from clients in different parts of Kenya depicts how We are at providing 
+                       the best IT solutions to our clientele.</p>
+                       <p>We have top-notch skills in handling technical projects and also with current i</p>
+                       <p>Why us !</p>                  
+                       <p> We have a friendly qualified team with 24hr support  </p>
+                       <p>  Save money! We prototype our projects saving much of your time and money! </p>
+                       <p> Free 3 months maintenance to any kind of project   </p>
+                 
+                     <p> Above all, we value much more about the success of your business than getting your money.Walk into our offices todat!!{" "}</p>          
                  
                
                    
@@ -41,7 +48,7 @@ export default function Index() {
                 >
                   Tailwind CSS
                 </a>
-                . It features multiple HTML elements and it comes with dynamic
+                It features multiple HTML elements and it comes with dynamic
                 components for ReactJS, Vue and Angular.
               </p>
               <div className="mt-12">
@@ -278,7 +285,11 @@ export default function Index() {
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         ReactJS
-                      </p>
+                      </p>        <div class="flex flex-col space-y-8">
+  <p>...</p>
+  <p>...</p>
+  <p>...</p>
+</div>
                     </div>
                   </a>
                   <a
