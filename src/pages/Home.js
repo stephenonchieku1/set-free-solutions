@@ -5,7 +5,6 @@ import HomeSection from '../components/HomeSection';
 import Nav from '../components/Nav';
 import Services from "../components/Services/Services";
 
-
 const Home = () => {
   return (
     <div>
@@ -14,6 +13,7 @@ const Home = () => {
       <HomeSection />
       <Services/>          
       <Footer />
+     
     </div>
   );
 };

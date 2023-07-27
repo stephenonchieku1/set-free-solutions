@@ -17,7 +17,7 @@ const Hero = () => {
             <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
           </div>
           <div className="container relative mx-auto">
-              <div className="items-center flex flex-wrap">
+              <div className="items-center flex flex-wrap"> 
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                   <div className="pr-12">
                     <h1 className="text-white font-semibold text-5xl">
@@ -55,6 +55,7 @@ const Hero = () => {
         </div>
 
      
+        import Example from './Example';
 
         <section className="pb-20 bg-gray-300 -mt-auto">
           <div className="container mx-auto px-4">
@@ -74,7 +75,8 @@ const Hero = () => {
               </div>
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="rimport Example from './Example';
+elative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                       <i className="fas fa-retweet"></i>
@@ -107,6 +109,7 @@ const Hero = () => {
             </div>
             </div>
      </section>
+  
      
        </main>
     
