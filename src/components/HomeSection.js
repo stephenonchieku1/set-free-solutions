@@ -10,18 +10,12 @@ const HomeSection = () => {
         style={{ flex: 0.6 }}
       >
         <h2 className="text-3xl font-bold mb-4 md:text-4xl">
-        Managed and Modern Network Services
+        WHO ARE WE ?
         </h2>
         <p className="opacity-70 mb-4 text-sm md:text-base leading-loose">
                        
-                TPx offers managed network services that deliver end-to-end management of your network’s infrastructure, helping you to increase productivity, lower costs and remove the complexity of managing everything on your own. Whether you need internet connectivity for one office or multi-locations, we can design the right network solution for you.
-
-                SD-WAN networks powered by VMware and Cisco Meraki
-                High-Speed Internet Access (Ethernet, Fiber, Dedicated Internet Access (DIA))
-                Private networking/Multiprotocol Label Switching (MPLS) networks
-                High-Speed Internet Access with SD-WAN
-                5G / 4G LTE Internet Access with SD-WAN
-                Hybrid WAN
+        Set Free Solutions is a fully registered company whose core business is IT and Branding. Being a solutions driven company, we pride ourselves for helping each and every client find the right solutions to achieve their strategic goals. We offer our clients a completely fresh perspective to Branding and IT solutions.
+        Set Free Solutions draws its wealth of experience from providing exeptional products and services to Government departments, NGOs, Foundations, Corparates and businesses. We offer a wide range of products and services and pride ourselves in providing solutions rapidly and imaginatively.
         </p>
 
         <Link to="/login">
