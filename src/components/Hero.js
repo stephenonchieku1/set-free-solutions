@@ -55,7 +55,7 @@ const Hero = () => {
         </div>
 
      
-    
+        
 
         <section className="pb-20 bg-gray-300 -mt-auto">
           <div className="container mx-auto px-4">
