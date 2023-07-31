@@ -98,7 +98,7 @@ elative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Verified Company
+                      A supportive partner
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
                       Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
